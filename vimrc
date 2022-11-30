@@ -35,3 +35,4 @@ so ~/vimfiles/keymaps.vim
 so ~/vimfiles/config.vim
 
 let mapleader = ","
+colorscheme twilight
