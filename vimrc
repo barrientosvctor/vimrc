@@ -34,10 +34,4 @@ set nobackup
 so ~/vimfiles/keymaps.vim
 so ~/vimfiles/config.vim
 
-" Colorscheme config
-if &t_Co > 2
-    highlight NonText ctermfg=#fffedc ctermbg=#1a1a1a
-endif
-
 let mapleader = ","
-colorscheme twilight
