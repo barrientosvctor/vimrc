@@ -47,3 +47,6 @@ let g:fern#renderer#default#expanded_symbol  = '▼ '
 let g:fern#renderer#default#leading          = ' '
 let g:fern#renderer#default#leaf_symbol      = '  '
 let g:fern#renderer#default#root_symbol      = '~ '
+
+" Airline
+let g:airline_theme="base16_twilight"
