@@ -1,4 +1,6 @@
+" Hotkeys
 nnoremap <C-w> :w<Enter>
+nnoremap <C-q> :q<Enter>
 
 " Fern
 nnoremap <F1> :Fern . -drawer -toggle -reveal=%<Enter>

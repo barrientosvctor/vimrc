@@ -1,19 +1,16 @@
-set number
-set relativenumber
-set termguicolors
-set history=1000
+" Victor's vimrc
+
+set number							" set line numbers
+set relativenumber			" set line relative numbers
+set termguicolors				" allows set background colors in vim
+set history=1000				" sets the number of lines that will be remembered in the history table
 
 " Search
-set hlsearch
-set showmatch
-
-" Other
-set laststatus=1
-set wildmenu
-set wildoptions=pum
+set hlsearch						" highlight word matches
+set showmatch						" shows word matches when you're searching in code
 
 " Autocompletion
-set completeopt=menuone,noinsert,noselect,preview
+set completeopt=menuone,noinsert,noselect,preview			" it's nedeed to show language servers's autocompletion
 
 " Syntax / indent / files config
 syntax on
@@ -22,13 +19,13 @@ scriptencoding utf-8
 filetype indent plugin on
 set autoindent
 set smartindent
-set nowrap
+set nowrap														" sets no word wrap when a line number reaches the window size
 set backspace=indent,eol,start
 set hidden
 
 " Remove backups
-set noswapfile
-set nobackup
+set noswapfile			" it does not create swap files
+set nobackup				" it does not create backup files, use git instead!
 
 " Imports
 if has("unix")
@@ -39,5 +36,10 @@ elseif has("win32")
 	so ~/vimfiles/config.vim
 endif
 
+" Other
+set laststatus=1				" sets laststatus for statusbar
+set wildmenu						" sets a horizontal menu when you're autocompleting : commands
+set wildoptions=pum			" converts the horizontal menu to vertical menu
+set noshowmode					" it does not show actual mode in vim
 let mapleader = ","
 colorscheme twilight
