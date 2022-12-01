@@ -1,7 +1,7 @@
 nnoremap <C-w> :w<Enter>
 
 " Fern
-nnoremap <F1> :Fern -drawer . -toggle -reveal=%<Enter>
+nnoremap <F1> :Fern . -drawer -toggle -reveal=%<Enter>
 
 " Utils
 nnoremap te :tabedit<Enter>

@@ -31,8 +31,13 @@ set noswapfile
 set nobackup
 
 " Imports
-so ~/vimfiles/keymaps.vim
-so ~/vimfiles/config.vim
+if has("unix")
+	so ~/.vim/keymaps.vim
+	so ~/.vim/config.vim
+elseif has("win32")
+	so ~/vimfiles/keymaps.vim
+	so ~/vimfiles/config.vim
+endif
 
 let mapleader = ","
 colorscheme twilight
