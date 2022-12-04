@@ -1,9 +1,3 @@
-[submodule "pack/lsp/start/vim-lsp-settings"]
-	path = pack/lsp/start/vim-lsp-settings
-	url = https://github.com/mattn/vim-lsp-settings
-[submodule "pack/lsp/start/asyncomplete.vim"]
-	path = pack/lsp/start/asyncomplete.vim
-	url = https://github.com/prabirshrestha/asyncomplete.vim
 [submodule "pack/theme/start/vim-airline"]
 	path = pack/theme/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
@@ -13,9 +7,6 @@
 [submodule "pack/editor/start/fern.vim"]
 	path = pack/editor/start/fern.vim
 	url = https://github.com/lambdalisue/fern.vim
-[submodule "pack/lsp/start/asyncomplete-lsp.vim"]
-	path = pack/lsp/start/asyncomplete-lsp.vim
-	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
 [submodule "pack/coding/start/auto-pairs"]
 	path = pack/coding/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
@@ -31,6 +22,3 @@
 [submodule "pack/theme/start/vim-twilight"]
 	path = pack/theme/start/vim-twilight
 	url = https://github.com/barrientosvctor/vim-twilight
-[submodule "pack/lsp/start/vim-lsp"]
-	path = pack/lsp/start/vim-lsp
-	url = https://github.com/prabirshrestha/vim-lsp.git
