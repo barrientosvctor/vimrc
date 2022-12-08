@@ -50,3 +50,18 @@ let g:fern#renderer#default#root_symbol      = '~ '
 
 " Airline
 let g:airline_theme="base16_twilight"
+
+" UltiSnips
+
+" Asyncomplete / Ultisnips
+if has("python3")
+    let g:UltiSnipsExpandTrigger="<tab>"
+    let g:UltiSnipsJumpForwardTrigger="<c-s>"
+    let g:UltiSnipsJumpBackwardTrigger="<c-a>"
+
+		call asyncomplete#register_source(asyncomplete#sources#ultisnips#get_source_options({
+        \ 'name': 'ultisnips',
+        \ 'allowlist': ['*'],
+        \ 'completor': function('asyncomplete#sources#ultisnips#completor'),
+        \ }))
+endif
