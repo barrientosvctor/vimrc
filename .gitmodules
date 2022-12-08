@@ -37,3 +37,6 @@
 [submodule "pack/coding/start/ale"]
 	path = pack/coding/start/ale
 	url = https://github.com/dense-analysis/ale
+[submodule "pack/coding/start/editorconfig-vim"]
+	path = pack/coding/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
