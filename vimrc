@@ -43,4 +43,10 @@ set wildoptions=pum			" converts the horizontal menu to vertical menu
 set noshowmode					" it does not show actual mode in vim
 set guicursor=n-i-v-c:block		" sets cursor block
 let mapleader = ","
-colorscheme twilight
+
+" Colorschemes
+colorscheme habamax
+" colorscheme twilight
+
+" Colorscheme customization
+highlight VertSplit guibg=NONE      " Remove background to vertical splits
