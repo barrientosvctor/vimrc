@@ -31,9 +31,11 @@ set nobackup				" it does not create backup files, use git instead!
 if has("unix")
 	so ~/.vim/keymaps.vim
 	so ~/.vim/config.vim
+	set clipboard=unnamedplus
 elseif has("win32")
 	so ~/vimfiles/keymaps.vim
 	so ~/vimfiles/config.vim
+	set clipboard=unnamed
 endif
 
 " Other
@@ -49,4 +51,4 @@ colorscheme habamax
 " colorscheme twilight
 
 " Colorscheme customization
-highlight VertSplit guibg=NONE      " Remove background to vertical splits
+highlight VertSplit guibg=NONE
