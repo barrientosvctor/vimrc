@@ -73,9 +73,10 @@ augroup END
 
 " Vim-alirline
 let g:airline_section_y = "" "Encoding section
-" let g:airline_section_z = ""
 let g:airline_section_warning = ""
-" let g:airline_section_error = ""
+let g:webdevicons_enable_airline_statusline = 0
+let g:airline_powerline_fonts = 0
+let g:airline_theme="term"
 
 " Solarized config
 let g:solarized_use16=1
