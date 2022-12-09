@@ -4,6 +4,7 @@ set number							" set line numbers
 set relativenumber			" set line relative numbers
 set termguicolors				" allows set background colors in vim
 set history=1000				" sets the number of lines that will be remembered in the history table
+set background=dark         " sets dark background for vim"
 
 " Search
 set hlsearch						" highlight word matches
@@ -44,11 +45,9 @@ set wildmenu						" sets a horizontal menu when you're autocompleting : commands
 set wildoptions=pum			" converts the horizontal menu to vertical menu
 set noshowmode					" it does not show actual mode in vim
 set guicursor=n-i-v-c:block		" sets cursor block
+set redrawtime=2000
 let mapleader = ","
 
 " Colorschemes
-colorscheme habamax
-" colorscheme twilight
-
-" Colorscheme customization
-highlight VertSplit guibg=NONE
+colorscheme twilight
+" colorscheme solarized8
