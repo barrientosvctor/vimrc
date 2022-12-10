@@ -43,6 +43,3 @@
 [submodule "pack/editor/start/vim-gitgutter"]
 	path = pack/editor/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule "pack/theme/start/vim-solarized8"]
-	path = pack/theme/start/vim-solarized8
-	url = https://github.com/lifepillar/vim-solarized8
