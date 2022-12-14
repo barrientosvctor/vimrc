@@ -6,7 +6,6 @@ set termguicolors       " allows set background colors in vim
 set history=1000        " sets the number of lines that will be remembered in the history table
 set background=dark     " sets dark background for vim
 set ruler
-set mouse=a
 set undofile            " persist undo history between file editing sessions
 set clipboard=unnamed,unnamedplus   " access to system clipboard
 
@@ -33,10 +32,6 @@ set hidden
 " Remove backups
 set noswapfile      " it does not create swap files
 set nobackup        " it does not create backup files, use git instead!
-
-" Colorschemes
-colorscheme twilight
-" colorscheme solarized8
 
 " Other
 set laststatus=1				" sets laststatus for statusbar
