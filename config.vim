@@ -21,7 +21,6 @@ function! s:init_fern() abort
     nmap <buffer> nf <Plug>(fern-action-new-file=)
     nmap <buffer> nd <Plug>(fern-action-new-dir=)
     nmap <buffer> np <Plug>(fern-action-new-path=)
-    nmap <buffer> e <Plug>(fern-my-expand-or-collapse)
     nmap <buffer> O <Plug>(fern-action-collapse)
     nmap <buffer> R <Plug>(fern-action-reload:all)
     nmap <buffer> rm <Plug>(fern-action-remove)
@@ -29,6 +28,9 @@ function! s:init_fern() abort
     nmap <buffer> m <Plug>(fern-action-choice)
     nmap <buffer> s <Plug>(fern-action-open:split)
     nmap <buffer> v <Plug>(fern-action-open:vsplit)
+
+    nmap <buffer> e <Plug>(fern-my-expand-or-collapse)
+    nmap <buffer> <CR> <Plug>(fern-my-expand-or-collapse)
 endfunction
 
 augroup fern
@@ -80,3 +82,6 @@ let g:airline_theme="term"
 
 " Solarized config
 let g:solarized_use16=1
+
+" Ale.vim
+let g:ale_hover_cursor=0
