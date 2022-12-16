@@ -42,6 +42,10 @@ set guicursor=n-i-v-c:block		" sets cursor block
 set redrawtime=2000             " time to draw syntax highlighting to every filetype
 let mapleader = ","             " sets , key as <leader> key
 
+" Colorschemes
+colorscheme solarized8
+" colorscheme gruvbox
+
 " Imports
 if has("unix")
 	so ~/.vim/keymaps.vim
