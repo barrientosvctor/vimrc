@@ -34,7 +34,7 @@ set noswapfile      " it does not create swap files
 set nobackup        " it does not create backup files, use git instead!
 
 " Other
-set laststatus=1				" sets laststatus for statusbar
+set laststatus=2				" sets laststatus for statusbar
 set wildmenu                    " sets a horizontal menu when you're autocompleting : commands
 set wildoptions=pum			    " converts the horizontal menu to vertical menu
 set noshowmode					" it does not show actual mode in vim
