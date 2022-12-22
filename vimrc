@@ -8,6 +8,7 @@ set background=dark     " sets dark background for vim
 set ruler
 set undofile            " persist undo history between file editing sessions
 set clipboard=unnamed,unnamedplus   " access to system clipboard
+set colorcolumn=80					" sets a column to indicate length max
 
 " Search
 set hlsearch			" highlight word matches
@@ -43,8 +44,7 @@ set redrawtime=2000             " time to draw syntax highlighting to every file
 let mapleader = ","             " sets , key as <leader> key
 
 " Colorschemes
-colorscheme solarized8
-" colorscheme gruvbox
+colorscheme habamax
 
 " Imports
 if has("unix")

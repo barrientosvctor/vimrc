@@ -79,8 +79,5 @@ let g:airline_section_warning = ""
 let g:webdevicons_enable_airline_statusline = 0
 let g:airline_powerline_fonts = 0
 
-" Solarized config
-let g:solarized_use16=1
-
 " Ale.vim
 let g:ale_hover_cursor=0
