@@ -54,5 +54,4 @@ elseif has("win32")
 	so ~/vimfiles/keymaps.vim
 	so ~/vimfiles/config.vim
     set undodir=~/vimfiles/undodir
-    set term=powershell.exe
 endif
