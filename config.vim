@@ -1,3 +1,4 @@
+" Asyncomplete
 let g:asyncomplete_auto_completeopt = 0
 
 " Fern
@@ -40,7 +41,7 @@ augroup fern
     autocmd FileType fern call s:init_fern()
 augroup END
 
-" Light appearance
+" Fern appearance
 let g:fern#renderer#default#collapsed_symbol = '▷ '
 let g:fern#renderer#default#expanded_symbol  = '▼ '
 let g:fern#renderer#default#leading          = ' '
@@ -73,12 +74,16 @@ augroup lsp_install
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
-" Vim-alirline
+" Vim airline
 let g:airline_section_y = "" "Encoding section
 let g:airline_section_warning = ""
-let g:webdevicons_enable_airline_statusline = 0
-let g:airline_powerline_fonts = 0
+let g:webdevicons_enable_airline_statusline = 1 " powerline style
+let g:airline_powerline_fonts = 1 " powerline style
 let g:airline_theme = "term"
 
 " Ale.vim
 let g:ale_hover_cursor=0
+
+" CtrlP
+let g:ctrlp_map = "<C-p>"
+let g:ctrlp_cmd = "CtrlP"

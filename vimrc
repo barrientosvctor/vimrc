@@ -50,8 +50,10 @@ if has("unix")
 	so ~/.vim/keymaps.vim
 	so ~/.vim/config.vim
     set undodir=~/.vim/undodir
+    set wildignore+=*/.git/*,*/tmp/*,*/node_modules/*,*/__pycache__/* " for CtrlP file filter
 elseif has("win32")
 	so ~/vimfiles/keymaps.vim
 	so ~/vimfiles/config.vim
     set undodir=~/vimfiles/undodir
+    set wildignore+=*\\.git\\*,*\\tmp\\*,*\\node_modules\\*,*\\__pycache__\\* " for CtrlP file filter
 endif
