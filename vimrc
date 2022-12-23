@@ -50,9 +50,11 @@ colorscheme habamax
 if has("unix")
 	so ~/.vim/keymaps.vim
 	so ~/.vim/config.vim
-    set undodir=~/.vim/undodir
+  set undodir=~/.vim/undodir
+	set term=zsh
 elseif has("win32")
 	so ~/vimfiles/keymaps.vim
 	so ~/vimfiles/config.vim
-    set undodir=~/vimfiles/undodir
+  set undodir=~/vimfiles/undodir
+	set term=powershell
 endif
