@@ -1,32 +1,31 @@
 " Victor's vimrc
 
-set number              " sets line number
-set relativenumber      " set line relative numbers
-set termguicolors       " allows set background colors in vim
-set history=1000        " sets the number of lines that will be remembered in the history table
-set background=dark     " sets dark background for vim
+set number
+set relativenumber
+set termguicolors                   " allows set background colors in vim
+set history=1000                    " sets the number of lines that will be remembered in the history table
 set ruler
-set undofile            " persist undo history between file editing sessions
+set undofile                        " persist undo history between file editing sessions
 set clipboard=unnamed,unnamedplus   " access to system clipboard
 set colorcolumn=80					" sets a column to indicate length max
 
 " Search
-set hlsearch			" highlight word matches
-set showmatch			" shows word matches when you're searching in code
-set incsearch           " incremental search highlighting
-set ignorecase          " case insensitive
+set hlsearch			            " highlight word matches
+set showmatch			            " shows word matches when you're searching in code
+set incsearch                       " incremental search highlighting
+set ignorecase                      " case insensitive
 
 " Autocompletion
 set completeopt=menuone,noinsert,noselect,preview   " it's nedeed to show language servers's autocompletion
 
 " Syntax / indent / files config
-syntax on                       " sets syntax highlighting
+syntax on
 set encoding=utf-8
 scriptencoding utf-8
-filetype indent plugin on       " enable filetype
+filetype indent plugin on           " enable filetype
 set autoindent
 set smartindent
-set nowrap                      " sets no word wrap when a line number reaches the window size
+set nowrap
 set backspace=indent,eol,start
 set hidden
 
@@ -50,11 +49,9 @@ colorscheme habamax
 if has("unix")
 	so ~/.vim/keymaps.vim
 	so ~/.vim/config.vim
-  set undodir=~/.vim/undodir
-	set term=zsh
+    set undodir=~/.vim/undodir
 elseif has("win32")
 	so ~/vimfiles/keymaps.vim
 	so ~/vimfiles/config.vim
-  set undodir=~/vimfiles/undodir
-	set term=powershell
+    set undodir=~/vimfiles/undodir
 endif
