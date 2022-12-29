@@ -4,9 +4,9 @@ set number
 set relativenumber
 set termguicolors                   " allows set background colors in vim
 set history=1000                    " sets the number of lines that will be remembered in the history table
+set clipboard+=unnamed,unnamedplus
 set ruler
 set undofile                        " persist undo history between file editing sessions
-set clipboard=unnamed,unnamedplus   " access to system clipboard
 set colorcolumn=80					" sets a column to indicate length max
 
 " Search
