@@ -52,3 +52,6 @@
 [submodule "pack/coding/start/nerdcommenter"]
 	path = pack/coding/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
+[submodule "pack/theme/start/vim-twilight"]
+	path = pack/theme/start/vim-twilight
+	url = https://github.com/barrientosvctor/vim-twilight
