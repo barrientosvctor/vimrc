@@ -42,3 +42,6 @@ function! <SID>SynStack()
 endfunc
 
 nnoremap <leader>sp :call <SID>SynStack()<CR>
+
+" Format document
+nnoremap <F10> gg=G
