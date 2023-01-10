@@ -10,4 +10,4 @@ You are free to use and modify this vimrc for their use personal.
 
 **2.** `git submodule update`: It will clone submodules
 
-**3.** `git submodule update --remote`: It will update submodules to latest commits
+**3.** `git submodule update --remote` **(Optional)**: It will update submodules to latest commits
