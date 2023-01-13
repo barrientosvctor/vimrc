@@ -45,3 +45,10 @@ nnoremap <leader>sp :call <SID>SynStack()<CR>
 
 " Format document
 nnoremap <F10> gg=G
+
+" Comment / uncomment code blocks
+" comment
+noremap <leader>gcc :norm i
+
+" uncomment
+noremap <leader>gcn :norm x
