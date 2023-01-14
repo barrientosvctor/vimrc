@@ -52,3 +52,9 @@
 [submodule "pack/theme/start/vim-twilight"]
 	path = pack/theme/start/vim-twilight
 	url = https://github.com/barrientosvctor/vim-twilight
+[submodule "pack/theme/start/gruvbox"]
+	path = pack/theme/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule "pack/theme/start/vim-solarized8"]
+	path = pack/theme/start/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
