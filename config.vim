@@ -87,9 +87,3 @@ let g:ale_hover_cursor=0
 " CtrlP
 let g:ctrlp_map = "<C-p>"
 let g:ctrlp_cmd = "CtrlP"
-
-" Gruvbox
-let g:gruvbox_contrast_dark = "hard"
-
-" Solarized
-let g:solarized_use16 = 1
