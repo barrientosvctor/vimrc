@@ -56,4 +56,4 @@ elseif has("win32")
 endif
 
 " Colorschemes
-colorscheme gruvbox
+colorscheme twilight
