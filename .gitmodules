@@ -46,6 +46,3 @@
 [submodule "pack/editor/start/ctrlp.vim"]
 	path = pack/editor/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "pack/theme/start/vim-twilight"]
-	path = pack/theme/start/vim-twilight
-	url = https://github.com/barrientosvctor/vim-twilight
