@@ -13,9 +13,6 @@
 [submodule "pack/coding/start/vim-closetag"]
 	path = pack/coding/start/vim-closetag
 	url = https://github.com/alvan/vim-closetag
-[submodule "pack/coding/start/vim-endwise"]
-	path = pack/coding/start/vim-endwise
-	url = https://github.com/tpope/vim-endwise
 [submodule "pack/coding/start/vim-polyglot"]
 	path = pack/coding/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
