@@ -54,3 +54,5 @@ elseif has("win32")
     set undodir=~/vimfiles/undodir
     set wildignore+=*\\.git\\*,*\\tmp\\*,*\\node_modules\\*,*\\__pycache__\\* " for CtrlP file filter
 endif
+
+colorscheme enfocado
