@@ -49,6 +49,3 @@
 [submodule "pack/theme/start/vim-enfocado"]
 	path = pack/theme/start/vim-enfocado
 	url = https://github.com/wuelnerdotexe/vim-enfocado
-[submodule "pack/coding/start/vim-prettier"]
-	path = pack/coding/start/vim-prettier
-	url = https://github.com/prettier/vim-prettier
