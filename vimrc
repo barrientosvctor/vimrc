@@ -1,5 +1,6 @@
 " Victor's vimrc
 
+packloadall
 set number
 set relativenumber
 set termguicolors                   " allows set background colors in vim
