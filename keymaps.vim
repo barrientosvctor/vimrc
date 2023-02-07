@@ -4,7 +4,7 @@ nnoremap <C-q> :q<Enter>
 nnoremap q<C-q> :qa<Enter>
 
 " Fern
-nnoremap <F1> :Fern . -drawer -toggle -width=30 -reveal=%<Enter>
+nnoremap <leader>ff :Fern . -drawer -toggle -width=30 -reveal=%<Enter>
 
 " Utils
 nnoremap te :tabedit<Enter>
