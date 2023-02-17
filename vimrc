@@ -56,4 +56,9 @@ elseif has("win32")
     set wildignore+=*\\.git\\*,*\\tmp\\*,*\\node_modules\\*,*\\__pycache__\\* " for CtrlP file filter
 endif
 
-colorscheme habamax
+colorscheme default
+
+highlight Pmenu ctermbg=0 ctermfg=245 guibg=NONE guifg=#8a8a8a
+highlight Pmenusel ctermbg=236 ctermfg=15 guibg=#303030 guifg=#ffffff
+highlight PmenuSbar ctermbg=234 guibg=#1c1c1c
+highlight PmenuThumb ctermbg=241 guibg=#626262
