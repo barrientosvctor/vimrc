@@ -98,6 +98,22 @@ let g:ale_linters_explicit = 1
 let g:ale_lint_on_save = 1
 let g:ale_fix_on_save = 1
 
-" CtrlP
-let g:ctrlp_map = "<C-p>"
-let g:ctrlp_cmd = "CtrlP"
+" Fzf
+let g:fzf_buffers_jump=1
+
+" Set up :Files command to ignore directories
+let $FZF_DEFAULT_COMMAND="rg --files --ignore-case --hidden -g '!{.git,node_modules,__pycache__,tmp}'"
+command! -bang -nargs=? -complete=dir Files
+    \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
+
+" Fzf-vim appearance
+let $FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%'  --margin=1,4 --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
+let $BAT_THEME="ansi"
+
+if empty($TMUX)
+    " Outside tmux
+    let g:fzf_layout = { 'window': { 'width': 0.7, 'height': 0.6 } }
+else
+    " Inside tmux
+    let g:fzf_layout = { 'tmux': '-p70%,60%' }
+endif

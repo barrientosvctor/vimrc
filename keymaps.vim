@@ -47,8 +47,16 @@ nnoremap <leader>sp :call <SID>SynStack()<CR>
 nnoremap <F10> gg=G
 
 " Comment / uncomment code blocks
-" comment
 noremap <leader>gcc :norm i
 
-" uncomment
 noremap <leader>gcn :norm x
+
+
+" Fzf keymaps
+nnoremap <leader>zf :Files<Enter>
+
+" git files (git status)
+nnoremap <leader>zg :GFiles?<Enter>
+
+" open old buffers
+nnoremap <leader>zh :History<Enter>
