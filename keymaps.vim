@@ -51,7 +51,6 @@ noremap <leader>gcc :norm i
 
 noremap <leader>gcn :norm x
 
-
 " Fzf keymaps
 nnoremap <leader>zf :Files<Enter>
 
@@ -60,3 +59,13 @@ nnoremap <leader>zg :GFiles?<Enter>
 
 " open old buffers
 nnoremap <leader>zh :History<Enter>
+
+" Resize vim split
+nnoremap t<left> <C-w>>
+nnoremap t<right> <C-w><
+nnoremap t<up> <C-w>+
+nnoremap t<down> <C-w>-
+
+" Increment / decrement
+nnoremap + <C-a>
+nnoremap - <C-x>
