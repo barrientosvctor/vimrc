@@ -1,5 +1,6 @@
 " Victor's vimrc
 
+set bg=dark
 set number
 set relativenumber
 set termguicolors                   " allows set background colors in vim
@@ -52,8 +53,6 @@ elseif has("win32")
     so ~/vimfiles/config.vim
     set undodir=~/vimfiles/undodir
 endif
-
-colorscheme default
 
 " highlight group color overrides
 highlight VertSplit ctermfg=8 guifg=Grey
