@@ -79,7 +79,7 @@ let g:airline_section_y = "" "Encoding section
 let g:airline_section_warning = ""
 let g:webdevicons_enable_airline_statusline = 0 " powerline style
 let g:airline_powerline_fonts = 0 " powerline style
-let g:airline_theme = "supernova"
+let g:airline_theme = "hybridline"
 let g:airline#extensions#tabline#enabled = 1
 
 " Ale.vim
