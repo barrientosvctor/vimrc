@@ -77,7 +77,7 @@ nnoremap <leader>sa :tabprevious<Enter>
 " Buffers with Vim airline
 nnoremap <leader>df :bnext<Enter>
 nnoremap <leader>fd :bprev<Enter>
-nnoremap <leader>dd :bdelete<Enter>
+nnoremap <leader>dc :bdelete<Enter>
 
 nnoremap <leader><C-j> 20j
 nnoremap <leader><C-k> 20k
