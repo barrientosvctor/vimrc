@@ -122,3 +122,9 @@ else
     " Inside tmux
     let g:fzf_layout = { 'tmux': '-p70%,60%' }
 endif
+
+let g:abyss_italic = 1
+let g:abyss_underline = 1
+let g:abyss_undercurl = 1
+let g:abyss_bold = 1
+let g:abyss_invisible_background = 1
