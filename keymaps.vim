@@ -1,8 +1,3 @@
-" Hotkeys
-nnoremap <C-w> :w<Enter>
-nnoremap <C-q> :q<Enter>
-nnoremap q<C-q> :qa<Enter>
-
 " Fern
 nnoremap <leader>ff :Fern . -drawer -toggle -width=30 -reveal=%<Enter>
 
@@ -43,21 +38,17 @@ endfunc
 
 nnoremap <leader>sp :call <SID>SynStack()<CR>
 
-" Format document
-nnoremap <F10> gg=G
-
 " Comment / uncomment code blocks
 noremap <leader>gcc :norm i
-
 noremap <leader>gcn :norm x
 
 " Fzf keymaps
 nnoremap <leader>zf :Files<Enter>
 
-" git files (git status)
+" -- git files (git status)
 nnoremap <leader>zg :GFiles?<Enter>
 
-" open old buffers
+" -- open old buffers
 nnoremap <leader>zh :History<Enter>
 
 " Resize vim split
@@ -78,6 +69,3 @@ nnoremap <leader>sa :tabprevious<Enter>
 nnoremap <leader>df :bnext<Enter>
 nnoremap <leader>fd :bprev<Enter>
 nnoremap <leader>dc :bdelete<Enter>
-
-nnoremap <leader><C-j> 20j
-nnoremap <leader><C-k> 20k
