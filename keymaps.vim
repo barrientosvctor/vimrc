@@ -1,3 +1,6 @@
+" Hotkeys
+nnoremap <C-w> :w<Enter>
+
 " Fern
 nnoremap <leader>ff :Fern . -drawer -toggle -width=30 -reveal=%<Enter>
 
