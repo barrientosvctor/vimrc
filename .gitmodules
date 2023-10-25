@@ -52,6 +52,3 @@
 [submodule "pack/theme/start/ayu-vim"]
 	path = pack/theme/start/ayu-vim
 	url = https://github.com/ayu-theme/ayu-vim
-[submodule "pack/theme/start/gruvbox"]
-	path = pack/theme/start/gruvbox
-	url = https://github.com/morhetz/gruvbox
