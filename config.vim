@@ -128,6 +128,3 @@ let g:abyss_underline = 1
 let g:abyss_undercurl = 1
 let g:abyss_bold = 1
 "let g:abyss_invisible_background = 1
-
-" Gruvbox
-let g:gruvbox_contrast_dark = "hard"
