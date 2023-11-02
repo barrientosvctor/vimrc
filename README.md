@@ -14,7 +14,7 @@ You are free to use and modify this vimrc for their use personal.
 
 > Notes
 
-If appears the error: `[coc.nvim] build/index.js not found, please compile coc.nvim by: npm run build`, follow the steps.
+If an error appears saying: `[coc.nvim] build/index.js not found, please compile coc.nvim by: npm run build`, follow the steps.
 
 **1.** Go to [coc.nvim](/pack/lsp/start/coc.nvim) folder.
 
