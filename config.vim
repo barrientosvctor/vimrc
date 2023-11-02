@@ -1,3 +1,5 @@
+let g:coc_node_path = "C:\\Program Files\\nodejs\\node.exe"
+
 " Asyncomplete
 let g:asyncomplete_auto_completeopt = 0
 

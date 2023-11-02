@@ -11,3 +11,19 @@ You are free to use and modify this vimrc for their use personal.
 **2.** `git submodule update`: It will clone submodules
 
 **3.** `git submodule update --remote` **(Optional)**: It will update submodules to latest commits
+
+> Notes
+
+If appears the error: `[coc.nvim] build/index.js not found, please compile coc.nvim by: npm run build`, follow the steps.
+
+**1.** Go to [coc.nvim](/pack/lsp/start/coc.nvim) folder.
+
+```bash
+$ cd pack/lsp/start/coc.nvim
+```
+
+**2.** Change the git branch that coc.nvim is using to `release`.
+
+```bash
+$ git checkout release
+```
