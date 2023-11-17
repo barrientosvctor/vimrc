@@ -22,11 +22,9 @@ nnoremap tv :vert term<Enter>
 nnoremap th :term<Enter>
 tnoremap <Esc><Esc> <C-\><C-n>
 
-" Asyncomplete
-inoremap <expr> <C-s> pumvisible() ? "\<C-n>" : "\<C-s>"
-inoremap <expr> <C-a> pumvisible() ? "\<C-p>" : "\<C-a>"
-inoremap <expr> <CR> pumvisible() ? asyncomplete#close_popup() : "\<CR>"
-imap <C-f> <Plug>(asyncomplete_force_refresh)
+" Coc.nvim
+nnoremap <silent><nowait> <C-a>  :<C-u>CocList diagnostics<cr>
+nnoremap <silent><nowait> <C-s>  :<C-u>CocList -I symbols<cr>
 
 " Refresh syntax highlighting
 nnoremap <F12> <Esc>:syntax sync fromstart<Enter>

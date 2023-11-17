@@ -81,7 +81,8 @@ let g:airline_section_y = "" "Encoding section
 let g:airline_section_warning = ""
 let g:webdevicons_enable_airline_statusline = 0 " powerline style
 let g:airline_powerline_fonts = 0 " powerline style
-let g:airline_theme = "ayu_dark"
+" base16_chalk
+let g:airline_theme = "random"
 let g:airline#extensions#tabline#enabled = 1
 
 " Ale.vim

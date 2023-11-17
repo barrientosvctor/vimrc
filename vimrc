@@ -74,4 +74,4 @@ highlight! link GitGutterAdd DiffAdd
 highlight! link GitGutterChange DiffChange
 highlight! link GitGutterDelete DiffDelete
 
-colorscheme ayu
+colorscheme wildcharm
