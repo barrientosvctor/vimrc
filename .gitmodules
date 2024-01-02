@@ -49,6 +49,3 @@
 [submodule "pack/editor/start/fzf.vim"]
 	path = pack/editor/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
-[submodule "pack/theme/start/ayu-vim"]
-	path = pack/theme/start/ayu-vim
-	url = https://github.com/ayu-theme/ayu-vim
