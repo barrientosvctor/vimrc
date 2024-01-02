@@ -73,5 +73,3 @@ highlight DiffChange ctermfg=11 ctermbg=0 guifg=#ffff00 guibg=Grey
 highlight! link GitGutterAdd DiffAdd
 highlight! link GitGutterChange DiffChange
 highlight! link GitGutterDelete DiffDelete
-
-colorscheme ayu
