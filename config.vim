@@ -74,14 +74,6 @@ augroup lsp_install
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
-" Vim airline
-let g:airline_section_y = "" "Encoding section
-let g:airline_section_warning = ""
-let g:webdevicons_enable_airline_statusline = 0 " powerline style
-let g:airline_powerline_fonts = 0 " powerline style
-let g:airline_theme = "ayu_dark"
-let g:airline#extensions#tabline#enabled = 1
-
 " Ale.vim
 let g:ale_hover_cursor=0
 let g:ale_linters = {
@@ -102,29 +94,3 @@ let g:ale_fixers = {
 let g:ale_linters_explicit = 1
 let g:ale_lint_on_save = 1
 let g:ale_fix_on_save = 1
-
-" Fzf
-let g:fzf_buffers_jump=1
-
-" Set up :Files command to ignore directories
-let $FZF_DEFAULT_COMMAND="rg --files --ignore-case --hidden -g '!{.git,node_modules,__pycache__,tmp}'"
-command! -bang -nargs=? -complete=dir Files
-    \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
-
-" Fzf-vim appearance
-let $FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%'  --margin=1,4 --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
-let $BAT_THEME="ansi"
-
-if empty($TMUX)
-    " Outside tmux
-    let g:fzf_layout = { 'window': { 'width': 0.7, 'height': 0.6 } }
-else
-    " Inside tmux
-    let g:fzf_layout = { 'tmux': '-p70%,60%' }
-endif
-
-let g:abyss_italic = 1
-let g:abyss_underline = 1
-let g:abyss_undercurl = 1
-let g:abyss_bold = 1
-"let g:abyss_invisible_background = 1
