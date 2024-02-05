@@ -46,11 +46,9 @@ let mapleader = ","                 " sets , key as <leader> key
 " Imports
 if has("unix")
     so ~/.vim/keymaps.vim
-    so ~/.vim/config.vim
     set undodir=~/.vim/undodir
 elseif has("win32")
     so ~/vimfiles/keymaps.vim
-    so ~/vimfiles/config.vim
     set undodir=~/vimfiles/undodir
 endif
 
