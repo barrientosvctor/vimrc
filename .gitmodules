@@ -31,3 +31,6 @@
 [submodule "pack/lsp/start/vim-vsnip-integ"]
 	path = pack/lsp/start/vim-vsnip-integ
 	url = https://github.com/hrsh7th/vim-vsnip-integ
+[submodule "pack/theme/start/lightline.vim"]
+	path = pack/theme/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
