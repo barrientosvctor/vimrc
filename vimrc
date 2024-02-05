@@ -52,22 +52,4 @@ elseif has("win32")
     set undodir=~/vimfiles/undodir
 endif
 
-" highlight group color overrides
-highlight VertSplit ctermfg=8 guifg=Grey
-"highlight SignColumn ctermbg=8 guibg=#808080
-"highlight VertSplit ctermfg=8 guifg=#808080
-
-" LSP menu / popups
-highlight Pmenu ctermbg=0 ctermfg=245 guibg=NONE guifg=#8a8a8a
-highlight Pmenusel ctermbg=236 ctermfg=15 guibg=#303030 guifg=#ffffff
-highlight PmenuSbar ctermbg=234 guibg=#1c1c1c
-highlight PmenuThumb ctermbg=241 guibg=#626262
-
-" git gutter
-highlight DiffAdd ctermfg=10 ctermbg=0 guifg=#00ff00 guibg=Grey
-highlight DiffDelete ctermfg=9 ctermbg=0 guifg=#ff0000 guibg=Grey
-highlight DiffChange ctermfg=11 ctermbg=0 guifg=#ffff00 guibg=Grey
-
-highlight! link GitGutterAdd DiffAdd
-highlight! link GitGutterChange DiffChange
-highlight! link GitGutterDelete DiffDelete
+colorscheme nord
