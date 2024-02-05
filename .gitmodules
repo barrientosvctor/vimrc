@@ -34,3 +34,6 @@
 [submodule "pack/theme/start/lightline.vim"]
 	path = pack/theme/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/theme/start/vim"]
+	path = pack/theme/start/vim
+	url = https://github.com/nordtheme/vim
