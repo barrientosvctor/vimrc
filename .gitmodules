@@ -37,3 +37,9 @@
 [submodule "pack/theme/start/vim"]
 	path = pack/theme/start/vim
 	url = https://github.com/nordtheme/vim
+[submodule "pack/editor/start/fzf.vim"]
+	path = pack/editor/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/editor/start/fzf"]
+	path = pack/editor/start/fzf
+	url = https://github.com/junegunn/fzf
