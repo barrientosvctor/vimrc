@@ -1,5 +1,7 @@
 let g:fern#disable_default_mappings = 1
 
+nnoremap <leader>ff <Cmd>Fern . -drawer -toggle -width=30 -reveal=%<Enter>
+
 function! s:init_fern() abort
     " fern#smart#leaf allows to do something different depending on whether
     " it is a file or a folder. open will be on files, expand or collapse

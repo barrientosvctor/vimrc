@@ -1,9 +1,3 @@
-" Hotkeys
-nnoremap <C-w> :w<Enter>
-
-" Fern
-nnoremap <leader>ff :Fern . -drawer -toggle -width=30 -reveal=%<Enter>
-
 " Utils
 nnoremap te :tabedit<Enter>
 
@@ -45,9 +39,6 @@ nnoremap <leader>sp :call <SID>SynStack()<CR>
 noremap <leader>gcc :norm i
 noremap <leader>gcn :norm x
 
-" Fzf keymaps
-nnoremap <leader>zf :Files<Enter>
-
 " -- git files (git status)
 nnoremap <leader>zg :GFiles?<Enter>
 
@@ -59,10 +50,6 @@ nnoremap t<left> <C-w>>
 nnoremap t<right> <C-w><
 nnoremap t<up> <C-w>+
 nnoremap t<down> <C-w>-
-
-" Increment / decrement
-nnoremap + <C-a>
-nnoremap - <C-x>
 
 " Tabs
 nnoremap <leader>as :tabnext<Enter>
