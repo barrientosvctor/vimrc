@@ -1,18 +1,6 @@
-[submodule "pack/theme/start/vim-airline"]
-	path = pack/theme/start/vim-airline
-	url = https://github.com/vim-airline/vim-airline
-[submodule "pack/theme/start/vim-airline-themes"]
-	path = pack/theme/start/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "pack/editor/start/fern.vim"]
 	path = pack/editor/start/fern.vim
 	url = https://github.com/lambdalisue/fern.vim
-[submodule "pack/coding/start/auto-pairs"]
-	path = pack/coding/start/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs
-[submodule "pack/coding/start/vim-closetag"]
-	path = pack/coding/start/vim-closetag
-	url = https://github.com/alvan/vim-closetag
 [submodule "pack/coding/start/vim-polyglot"]
 	path = pack/coding/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
@@ -43,9 +31,15 @@
 [submodule "pack/lsp/start/vim-vsnip-integ"]
 	path = pack/lsp/start/vim-vsnip-integ
 	url = https://github.com/hrsh7th/vim-vsnip-integ
-[submodule "pack/editor/start/fzf"]
-	path = pack/editor/start/fzf
-	url = https://github.com/junegunn/fzf
+[submodule "pack/theme/start/lightline.vim"]
+	path = pack/theme/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/theme/start/vim"]
+	path = pack/theme/start/vim
+	url = https://github.com/nordtheme/vim
 [submodule "pack/editor/start/fzf.vim"]
 	path = pack/editor/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/editor/start/fzf"]
+	path = pack/editor/start/fzf
+	url = https://github.com/junegunn/fzf
