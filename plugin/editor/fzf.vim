@@ -1,6 +1,12 @@
 nnoremap <leader>, :Files<cr>
 nnoremap <leader>; :Buffers<cr>
 
+" -- git files (git status)
+nnoremap <leader>zg :GFiles?<Enter>
+
+" -- open old buffers
+nnoremap <leader>zh :History<Enter>
+
 let $BAT_THEME = "ansi"
 
 let g:fzf_buffers_jump = 1
