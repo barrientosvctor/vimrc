@@ -27,7 +27,7 @@ echo "'.gitmodules' has been staged."
 # Untrack the git submodule in git project
 git rm --cached $mod_path
 
-echo "'$mod_path' untracked"
+echo "'$mod_path' untracked."
 
 # Remove the git submodule in .git folder
 rm -rf .git/modules/$mod_path
@@ -35,4 +35,4 @@ rm -rf .git/modules/$mod_path
 # Remove the git submodule folder in the project
 rm -rf $mod_path
 
-echo "$mod_name has been removed!"
+echo "$mod_name has been removed! Commit the changes."
