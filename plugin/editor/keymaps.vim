@@ -27,8 +27,8 @@ endfunc
 nnoremap <leader>sp <cmd>call <SID>SynStack()<CR>
 
 " Comment / uncomment code blocks
-noremap <leader>gcc <cmd>norm i
-noremap <leader>gcn <cmd>norm x
+noremap <leader>gcc :norm i
+noremap <leader>gcn :norm x
 
 " Resize vim split
 nnoremap t<left> <C-w>>
