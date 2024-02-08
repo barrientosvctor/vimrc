@@ -33,3 +33,28 @@ $ make update
 ```shell
 $ make uninstall
 ```
+
+### How to remove a specific submodule
+
+Inside [scripts](/scripts) folder you'll found files scripts for Linux / MacOS machines (Bash Script file) and Windows (Working on Powershell file).
+To execute them, follow the instructions below.
+
+#### Linux / MacOS
+
+Make sure that the Bash Script file has permissions to be executed.
+
+```shell
+$ chmod +x ./scripts/remove_pack_submodule.sh
+```
+
+Then execute it typing in shell:
+
+```shell
+$ ./scripts/remove_pack_submodule.sh
+```
+
+Follow the instructions that the script tells you.
+
+#### Windows
+
+Working on Powershell script...
