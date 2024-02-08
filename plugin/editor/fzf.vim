@@ -1,11 +1,11 @@
-nnoremap <leader>, :Files<cr>
-nnoremap <leader>; :Buffers<cr>
+nnoremap <leader>, <cmd>Files<cr>
+nnoremap <leader>; <cmd>Buffers<cr>
 
 " -- git files (git status)
-nnoremap <leader>zg :GFiles?<Enter>
+nnoremap <leader>zg <cmd>GFiles?<Enter>
 
 " -- open old buffers
-nnoremap <leader>zh :History<Enter>
+nnoremap <leader>zh <cmd>History<Enter>
 
 let $BAT_THEME = "ansi"
 
