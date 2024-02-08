@@ -8,9 +8,28 @@ You are free to use and modify this vimrc for their personal use.
 * [Node.js](https://nodejs.org) - For language servers installation.
 * [Fzf](https://github.com/junegunn/fzf)
 
-## Submodules setup
-**1.** `git submodule init`: It will initialize submodules after clone
+## Submodules
 
-**2.** `git submodule update`: It will clone submodules
+### How to setup
 
-**3.** `git submodule update --remote` **(Optional)**: It will update submodules to latest commits
+```shell
+$ make
+```
+
+or
+
+```shell
+$ make install
+```
+
+### How to update
+
+```shell
+$ make update
+```
+
+### How to uninstall
+
+```shell
+$ make uninstall
+```
