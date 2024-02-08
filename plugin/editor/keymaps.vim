@@ -1,6 +1,3 @@
-" Utils
-nnoremap te :tabedit<Enter>
-
 " Windows
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -15,12 +12,6 @@ nnoremap tx :split<Enter><C-w>j
 nnoremap tv :vert term<Enter>
 nnoremap th :term<Enter>
 tnoremap <Esc><Esc> <C-\><C-n>
-
-" Asyncomplete
-inoremap <expr> <C-s> pumvisible() ? "\<C-n>" : "\<C-s>"
-inoremap <expr> <C-a> pumvisible() ? "\<C-p>" : "\<C-a>"
-inoremap <expr> <CR> pumvisible() ? asyncomplete#close_popup() : "\<CR>"
-imap <C-f> <Plug>(asyncomplete_force_refresh)
 
 " Refresh syntax highlighting
 nnoremap <F12> <Esc>:syntax sync fromstart<Enter>
@@ -39,12 +30,6 @@ nnoremap <leader>sp :call <SID>SynStack()<CR>
 noremap <leader>gcc :norm i
 noremap <leader>gcn :norm x
 
-" -- git files (git status)
-nnoremap <leader>zg :GFiles?<Enter>
-
-" -- open old buffers
-nnoremap <leader>zh :History<Enter>
-
 " Resize vim split
 nnoremap t<left> <C-w>>
 nnoremap t<right> <C-w><
@@ -52,6 +37,7 @@ nnoremap t<up> <C-w>+
 nnoremap t<down> <C-w>-
 
 " Tabs
+nnoremap te :tabedit<Enter>
 nnoremap <leader>as :tabnext<Enter>
 nnoremap <leader>sa :tabprevious<Enter>
 
