@@ -38,7 +38,6 @@ set nobackup                        " it does not create backup files, use git i
 set laststatus=2				    " sets laststatus for statusbar
 set wildmenu                        " sets a horizontal menu when you're autocompleting : commands
 set wildoptions=pum			        " converts the horizontal menu to vertical menu
-set noshowmode					    " it does not show actual mode in vim
 set guicursor=n-i-v-c:block		    " sets cursor block
 set redrawtime=2000                 " time to draw syntax highlighting to every filetype
 let mapleader = ","                 " sets , key as <leader> key
@@ -49,5 +48,3 @@ if has("unix")
 elseif has("win32")
     set undodir=~/vimfiles/undodir
 endif
-
-colorscheme nord
