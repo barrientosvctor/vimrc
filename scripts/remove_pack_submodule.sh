@@ -18,21 +18,22 @@ $(ls $pack_path/$mod_type/start)"
 read -p "- Type the module's name: " mod_name
 
 mod_path="$pack_path/$mod_type/start/$mod_name"
+relative_mod_path="pack/$mod_type/start/$mod_name"
 
 echo $mod_path
 
 git add .gitmodules
-echo "'.gitmodules' has been staged."
+echo "-> '.gitmodules' has been staged."
 
 # Untrack the git submodule in git project
 git rm --cached $mod_path
 
-echo "'$mod_path' untracked."
+echo "-> '$mod_path' untracked."
 
 # Remove the git submodule in .git folder
-rm -rf .git/modules/$mod_path
+rm -rf .git/modules/$relative_mod_path
 
 # Remove the git submodule folder in the project
 rm -rf $mod_path
 
-echo "$mod_name has been removed! Commit the changes."
+echo "-> '$mod_name' has been removed! Commit the changes."
