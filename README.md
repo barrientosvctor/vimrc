@@ -1,7 +1,7 @@
 # Victor's vimrc
 
 My Vim dotfiles are suposed to be fully compatible with Windows, Unix and Linux machines.
-You are free to use and modify this vimrc for their personal use.
+You are free to use and modify this vimrc for their personal use at your own risk.
 
 ## Requeriments
 * [Git](https://git-scm.com)
@@ -11,6 +11,8 @@ You are free to use and modify this vimrc for their personal use.
 ## Submodules
 
 ### How to setup
+
+#### Linux / MacOS
 
 ```shell
 $ make
@@ -22,21 +24,43 @@ or
 $ make install
 ```
 
+#### Windows
+
+```shell
+$ ./scripts/actions.ps1
+```
+
 ### How to update
+
+#### Linux / MacOS
 
 ```shell
 $ make update
 ```
 
+#### Windows
+
+```shell
+$ ./scripts/actions.ps1
+```
+
 ### How to uninstall
+
+#### Linux / MacOS
 
 ```shell
 $ make uninstall
 ```
 
+#### Windows
+
+```shell
+$ ./scripts/actions.ps1
+```
+
 ### How to remove a specific submodule
 
-Inside [scripts](/scripts) folder you'll found files scripts for Linux / MacOS machines (Bash Script file) and Windows (Working on Powershell file).
+Inside [scripts](/scripts) folder you'll found files scripts for Linux / MacOS machines (Bash Script file) and Windows (Powershell file).
 To execute them, follow the instructions below.
 
 #### Linux / MacOS
@@ -53,8 +77,11 @@ Then execute it typing in shell:
 $ ./scripts/remove_pack_submodule.sh
 ```
 
-Follow the instructions that the script tells you.
-
 #### Windows
 
-Working on Powershell script...
+```shell
+$ ./scripts/win_remove_pack_submodule.ps1
+```
+
+Follow the instructions that both scripts tells you to have a successful
+experience.
