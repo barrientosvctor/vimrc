@@ -28,3 +28,6 @@
 [submodule "pack/editor/start/fzf"]
 	path = pack/editor/start/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "pack/coding/start/auto-pairs"]
+	path = pack/coding/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs

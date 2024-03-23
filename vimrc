@@ -48,3 +48,5 @@ if has("unix")
 elseif has("win32")
     set undodir=~/vimfiles/undodir
 endif
+
+colorscheme lunaperche
