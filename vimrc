@@ -3,7 +3,6 @@
 set bg=dark
 set number
 set relativenumber
-set termguicolors                   " allows set background colors in vim
 set history=1000                    " sets the number of lines that will be remembered in the history table
 set clipboard+=unnamed,unnamedplus
 set ruler
@@ -48,5 +47,3 @@ if has("unix")
 elseif has("win32")
     set undodir=~/vimfiles/undodir
 endif
-
-colorscheme lunaperche
