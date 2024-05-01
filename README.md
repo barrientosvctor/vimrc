@@ -4,6 +4,7 @@ My Vim dotfiles are suposed to be fully compatible with Windows, Unix and Linux 
 You are free to use and modify this vimrc for their personal use at your own risk.
 
 ## Requeriments
+* [Vim](https://github.com/vim/vim) >= 9.0
 * [Git](https://git-scm.com)
 * [Node.js](https://nodejs.org) - For language servers installation.
 * [Fzf](https://github.com/junegunn/fzf)
