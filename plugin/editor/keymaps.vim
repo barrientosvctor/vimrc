@@ -12,6 +12,10 @@ nnoremap <leader>tx <cmd>split<CR><C-w>j
 nnoremap <leader>tv <cmd>vert term<CR>
 nnoremap <leader>th <cmd>term<CR>
 tnoremap <leader>zz <C-\><C-n>
+tnoremap <C-h> <C-\><C-n><C-w>h
+tnoremap <C-j> <C-\><C-n><C-w>j
+tnoremap <C-k> <C-\><C-n><C-w>k
+tnoremap <C-l> <C-\><C-n><C-w>l
 
 " Refresh syntax highlighting
 nnoremap <F12> <Esc><cmd>syntax sync fromstart<CR>
