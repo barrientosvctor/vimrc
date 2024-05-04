@@ -11,7 +11,7 @@ nnoremap <leader>tx <cmd>split<CR><C-w>j
 " Terminal
 nnoremap <leader>tv <cmd>vert term<CR>
 nnoremap <leader>th <cmd>term<CR>
-tnoremap <Esc><Esc> <C-\><C-n>
+tnoremap <leader>zz <C-\><C-n>
 
 " Refresh syntax highlighting
 nnoremap <F12> <Esc><cmd>syntax sync fromstart<CR>
