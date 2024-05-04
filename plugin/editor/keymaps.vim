@@ -16,16 +16,6 @@ tnoremap <Esc><Esc> <C-\><C-n>
 " Refresh syntax highlighting
 nnoremap <F12> <Esc><cmd>syntax sync fromstart<CR>
 
-" Show highlight group
-function! <SID>SynStack()
-  if !exists("*synstack")
-    return
-  endif
-  echo map(synstack(line('.'), col('.')), 'synIDattr(v<cmd>val, "name")')
-endfunc
-
-nnoremap <leader>sp <cmd>call <SID>SynStack()<CR>
-
 " Comment / uncomment code blocks
 noremap <leader>gcc :norm i
 noremap <leader>gcn :norm x
