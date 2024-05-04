@@ -5,16 +5,16 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Split windows
-nnoremap <leader>ty <cmd>vsp<Enter><C-w>l
-nnoremap <leader>tx <cmd>split<Enter><C-w>j
+nnoremap <leader>ty <cmd>vsp<CR><C-w>l
+nnoremap <leader>tx <cmd>split<CR><C-w>j
 
 " Terminal
-nnoremap <leader>tv <cmd>vert term<Enter> " vertical terminal
-nnoremap <leader>th <cmd>term<Enter> "horizontal terminal
+nnoremap <leader>tv <cmd>vert term<CR>
+nnoremap <leader>th <cmd>term<CR>
 tnoremap <Esc><Esc> <C-\><C-n>
 
 " Refresh syntax highlighting
-nnoremap <F12> <Esc><cmd>syntax sync fromstart<Enter>
+nnoremap <F12> <Esc><cmd>syntax sync fromstart<CR>
 
 " Show highlight group
 function! <SID>SynStack()
@@ -37,11 +37,11 @@ nnoremap t<up> <C-w>+
 nnoremap t<down> <C-w>-
 
 " Tabs
-nnoremap <leader>te <cmd>tabedit<Enter>
-nnoremap <leader>tn <cmd>tabnext<Enter>
-nnoremap <leader>tp <cmd>tabprevious<Enter>
+nnoremap <leader>te <cmd>tabedit<CR>
+nnoremap <leader>tn <cmd>tabnext<CR>
+nnoremap <leader>tp <cmd>tabprevious<CR>
 
 " Buffers
-nnoremap <leader>bn <cmd>bnext<Enter>
-nnoremap <leader>bp <cmd>bprev<Enter>
-nnoremap <leader>bd <cmd>bdelete<Enter>
+nnoremap <leader>bn <cmd>bnext<CR>
+nnoremap <leader>bp <cmd>bprev<CR>
+nnoremap <leader>bd <cmd>bdelete<CR>
