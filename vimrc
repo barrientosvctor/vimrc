@@ -36,7 +36,6 @@ set nobackup                        " it does not create backup files, use git i
 " Other
 set laststatus=2				    " sets laststatus for statusbar
 set wildmenu                        " sets a horizontal menu when you're autocompleting : commands
-set wildoptions=pum			        " converts the horizontal menu to vertical menu
 set guicursor=n-i-v-c:block		    " sets cursor block
 set redrawtime=2000                 " time to draw syntax highlighting to every filetype
 let mapleader = ","                 " sets , key as <leader> key
@@ -44,9 +43,5 @@ let mapleader = ","                 " sets , key as <leader> key
 highlight ExtraWhitespace ctermbg=1
 match ExtraWhitespace /\s\+$/
 
-" Imports
-if has("unix")
-    set undodir=~/.vim/undodir
-elseif has("win32")
-    set undodir=~/vimfiles/undodir
-endif
+if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
+if has("unix") | set undodir=~/.vim/undodir | elseif has("win32") | set undodir=~/vimfiles/undodir | endif
