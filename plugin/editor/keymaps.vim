@@ -39,3 +39,15 @@ nnoremap <leader>tp <cmd>tabprevious<CR>
 nnoremap <leader>bn <cmd>bnext<CR>
 nnoremap <leader>bp <cmd>bprev<CR>
 nnoremap <leader>bd <cmd>bdelete<CR>
+
+" Output the highlight group under the cursor
+function! SynStack()
+  for i1 in synstack(line("."), col("."))
+    let i2 = synIDtrans(i1)
+    let n1 = synIDattr(i1, "name")
+    let n2 = synIDattr(i2, "name")
+    echo n1 "->" n2
+  endfor
+endfunction
+
+nnoremap <F2> <cmd>call SynStack()<cr>
