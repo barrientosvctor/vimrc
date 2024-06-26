@@ -40,6 +40,10 @@ nnoremap <leader>bn <cmd>bnext<CR>
 nnoremap <leader>bp <cmd>bprev<CR>
 nnoremap <leader>bd <cmd>bdelete<CR>
 
+" Move line
+nnoremap <C-S-Up> <cmd>move-2<CR>
+nnoremap <C-S-Down> <cmd>move+1<CR>
+
 " Output the highlight group under the cursor
 function! SynStack()
   for i1 in synstack(line("."), col("."))
