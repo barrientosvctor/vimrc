@@ -1,6 +1,3 @@
-[submodule "pack/editor/start/fern.vim"]
-	path = pack/editor/start/fern.vim
-	url = https://github.com/lambdalisue/fern.vim
 [submodule "pack/coding/start/vim-polyglot"]
 	path = pack/coding/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
@@ -28,6 +25,3 @@
 [submodule "pack/editor/start/fzf"]
 	path = pack/editor/start/fzf
 	url = https://github.com/junegunn/fzf
-[submodule "pack/coding/start/auto-pairs"]
-	path = pack/coding/start/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs
