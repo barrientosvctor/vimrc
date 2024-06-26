@@ -8,6 +8,7 @@ set clipboard+=unnamed,unnamedplus
 set ruler
 set undofile                        " persist undo history between file editing sessions
 set colorcolumn=80					" sets a column to indicate length max
+set termguicolors
 
 " Search
 set hlsearch			            " highlight word matches
@@ -28,6 +29,10 @@ set smartindent
 set nowrap
 set backspace=indent,eol,start
 set hidden
+set expandtab
+set shiftwidth=4
+set softtabstop=4 " Use value of shiftwidth
+set smarttab       " Always use shiftwidth
 
 " Remove backups
 set noswapfile                      " it does not create swap files
@@ -45,3 +50,6 @@ match ExtraWhitespace /\s\+$/
 
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
 if has("unix") | set undodir=~/.vim/undodir | elseif has("win32") | set undodir=~/vimfiles/undodir | endif
+
+let g:gruvbox_contrast_dark = "hard"
+colorscheme gruvbox
