@@ -40,3 +40,6 @@
 [submodule "pack/colors/start/base16"]
 	path = pack/colors/start/base16
 	url = https://github.com/chriskempson/base16-vim
+[submodule "pack/coding/start/autopairs"]
+	path = pack/coding/start/autopairs
+	url = https://github.com/jiangmiao/auto-pairs
