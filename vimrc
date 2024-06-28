@@ -14,7 +14,6 @@ set termguicolors
 set hlsearch			            " highlight word matches
 set showmatch			            " shows word matches when you're searching in code
 set incsearch                       " incremental search highlighting
-set ignorecase                      " case insensitive
 
 " Autocompletion
 set completeopt=menuone,noinsert,noselect,preview   " it's nedeed to show language servers's autocompletion
