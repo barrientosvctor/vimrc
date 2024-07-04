@@ -8,7 +8,6 @@ set clipboard+=unnamed,unnamedplus
 set ruler
 set undofile                        " persist undo history between file editing sessions
 set colorcolumn=80					" sets a column to indicate length max
-set termguicolors
 set wrap
 
 " Search
@@ -50,7 +49,9 @@ match ExtraWhitespace /\s\+$/
 
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
 if has("unix") | set undodir=~/.vim/undodir | elseif has("win32") | set undodir=~/vimfiles/undodir | endif
-
-packadd gruvbox
-let g:gruvbox_contrast_dark = "hard"
-colorscheme gruvbox
+if exists("+termguicolors")
+    set termguicolors
+    packadd gruvbox
+    let g:gruvbox_contrast_dark = "hard"
+    colorscheme gruvbox
+endif
