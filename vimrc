@@ -9,6 +9,7 @@ set ruler
 set undofile                        " persist undo history between file editing sessions
 set colorcolumn=80					" sets a column to indicate length max
 set termguicolors
+set wrap
 
 " Search
 set hlsearch			            " highlight word matches
