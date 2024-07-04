@@ -28,18 +28,15 @@
 [submodule "pack/editor/start/nerdtree"]
 	path = pack/editor/start/nerdtree
 	url = https://github.com/preservim/nerdtree
-[submodule "pack/colors/start/solarized"]
-	path = pack/colors/start/solarized
-	url = https://github.com/ericbn/vim-solarized
-[submodule "pack/colors/start/gruvbox"]
-	path = pack/colors/start/gruvbox
-	url = https://github.com/morhetz/gruvbox
-[submodule "pack/colors/start/nord"]
-	path = pack/colors/start/nord
-	url = https://github.com/nordtheme/vim
-[submodule "pack/colors/start/base16"]
-	path = pack/colors/start/base16
-	url = https://github.com/chriskempson/base16-vim
 [submodule "pack/coding/start/autopairs"]
 	path = pack/coding/start/autopairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/colors/opt/gruvbox"]
+	path = pack/colors/opt/gruvbox
+	url = https://github.com/morhetz/gruvbox/
+[submodule "pack/colors/opt/nord"]
+	path = pack/colors/opt/nord
+	url = https://github.com/nordtheme/vim
+[submodule "pack/colors/opt/solarized"]
+	path = pack/colors/opt/solarized
+	url = https://github.com/ericbn/vim-solarized

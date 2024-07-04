@@ -50,5 +50,6 @@ match ExtraWhitespace /\s\+$/
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
 if has("unix") | set undodir=~/.vim/undodir | elseif has("win32") | set undodir=~/vimfiles/undodir | endif
 
+packadd gruvbox
 let g:gruvbox_contrast_dark = "hard"
 colorscheme gruvbox
