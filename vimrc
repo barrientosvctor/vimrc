@@ -15,9 +15,6 @@ set hlsearch			            " highlight word matches
 set showmatch			            " shows word matches when you're searching in code
 set incsearch                       " incremental search highlighting
 
-" Autocompletion
-set completeopt=menuone,noinsert,noselect,preview   " it's nedeed to show language servers's autocompletion
-
 " Syntax / indent / files config
 syntax on
 set encoding=utf-8
@@ -40,7 +37,6 @@ set nobackup                        " it does not create backup files, use git i
 " Other
 set laststatus=2				    " sets laststatus for statusbar
 set wildmenu                        " sets a horizontal menu when you're autocompleting : commands
-set guicursor=n-i-v-c:block		    " sets cursor block
 set redrawtime=2000                 " time to draw syntax highlighting to every filetype
 let mapleader = ","                 " sets , key as <leader> key
 
@@ -49,9 +45,8 @@ match ExtraWhitespace /\s\+$/
 
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
 if has("unix") | set undodir=~/.vim/undodir | elseif has("win32") | set undodir=~/vimfiles/undodir | endif
-if exists("+termguicolors")
-    set termguicolors
-    packadd gruvbox
-    let g:gruvbox_contrast_dark = "hard"
-    colorscheme gruvbox
-endif
+if exists("+termguicolors") | set termguicolors | endif
+
+packadd gruvbox
+let g:gruvbox_contrast_dark = "hard"
+colorscheme gruvbox
