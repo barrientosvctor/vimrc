@@ -1,6 +1,3 @@
-[submodule "pack/coding/start/vim-polyglot"]
-	path = pack/coding/start/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot
 [submodule "pack/lsp/start/vim-lsp"]
 	path = pack/lsp/start/vim-lsp
 	url = https://github.com/prabirshrestha/vim-lsp
