@@ -4,7 +4,6 @@ set bg=dark
 set number
 set relativenumber
 set history=1000                    " sets the number of lines that will be remembered in the history table
-set clipboard+=unnamed,unnamedplus
 set ruler
 set undofile                        " persist undo history between file editing sessions
 set colorcolumn=80					" sets a column to indicate length max
@@ -46,6 +45,7 @@ match ExtraWhitespace /\s\+$/
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
 if has("unix") | set undodir=~/.vim/undodir | elseif has("win32") | set undodir=~/vimfiles/undodir | endif
 if exists("+termguicolors") | set termguicolors | endif
+if exists("+clipboard") && exists("+clientserver") | set clipboard=unnamedplus | endif
 
 packadd gruvbox
 let g:gruvbox_contrast_dark = "hard"
