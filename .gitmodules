@@ -25,9 +25,6 @@
 [submodule "pack/colors/opt/gruvbox"]
 	path = pack/colors/opt/gruvbox
 	url = https://github.com/morhetz/gruvbox/
-[submodule "pack/colors/opt/nord"]
-	path = pack/colors/opt/nord
-	url = https://github.com/nordtheme/vim
 [submodule "pack/colors/opt/solarized"]
 	path = pack/colors/opt/solarized
 	url = https://github.com/ericbn/vim-solarized
