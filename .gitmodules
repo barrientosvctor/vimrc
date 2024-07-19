@@ -1,6 +1,3 @@
-[submodule "pack/coding/start/vim-polyglot"]
-	path = pack/coding/start/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot
 [submodule "pack/lsp/start/vim-lsp"]
 	path = pack/lsp/start/vim-lsp
 	url = https://github.com/prabirshrestha/vim-lsp
@@ -19,12 +16,6 @@
 [submodule "pack/coding/start/editorconfig-vim"]
 	path = pack/coding/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
-[submodule "pack/editor/start/fzf.vim"]
-	path = pack/editor/start/fzf.vim
-	url = https://github.com/junegunn/fzf.vim
-[submodule "pack/editor/start/fzf"]
-	path = pack/editor/start/fzf
-	url = https://github.com/junegunn/fzf
 [submodule "pack/editor/start/nerdtree"]
 	path = pack/editor/start/nerdtree
 	url = https://github.com/preservim/nerdtree
