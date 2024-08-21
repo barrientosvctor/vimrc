@@ -1,3 +1,6 @@
+let has_lua_and_abyss = has("lua") && !empty(glob("~/projects/nvim/abyss.nvim"))
+let enable_abyss = 1
+
 set bg=dark
 set number
 set relativenumber
@@ -51,6 +54,17 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
+
+if has("patch-9.0.1799")
+    packadd! editorconfig
+else
+    Plug 'editorconfig/editorconfig-vim'
+endif
+
+if has_lua_and_abyss
+    Plug '~/projects/nvim/abyss.nvim'
+endif
 call plug#end()
 
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
@@ -78,7 +92,7 @@ function! s:on_lsp_buffer_enabled() abort
 
     let g:lsp_format_sync_timeout = 1000
     autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
-    
+
     " refer to doc to add more commands
 endfunction
 
@@ -100,4 +114,8 @@ tnoremap <Esc><Esc> <C-\><C-n>
 nnoremap <Leader>bd <Cmd>bd<CR>
 nnoremap <Leader>tb <Cmd>call util#ToggleBackground()<CR>
 
-colorscheme retrobox
+if has_lua_and_abyss && enable_abyss
+    colorscheme abyss
+else
+    colorscheme retrobox
+endif
