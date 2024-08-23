@@ -1,3 +1,3 @@
 set guioptions-=T
 set cursorline
-set guifont=Menlo:h16:cANSI
+set guifont=JetBrains\ Mono\ SemiBold:h17:cANSI
