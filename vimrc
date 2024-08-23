@@ -116,7 +116,7 @@ nnoremap <Leader>tb <Cmd>call util#ToggleBackground()<CR>
 nnoremap <F2> <Cmd>call util#SynStack()<CR>
 
 if has_lua_and_abyss && enable_abyss
-    colorscheme abyss
+    lua require("abyss").setup {}
 else
     colorscheme retrobox
 endif
