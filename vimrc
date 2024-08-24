@@ -55,6 +55,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdtree'
 
 if has("patch-9.0.1799")
     packadd! editorconfig
@@ -114,6 +115,7 @@ tnoremap <Esc><Esc> <C-\><C-n>
 nnoremap <Leader>bd <Cmd>bd<CR>
 nnoremap <Leader>tb <Cmd>call util#ToggleBackground()<CR>
 nnoremap <F2> <Cmd>call util#SynStack()<CR>
+nnoremap <Leader>ff <Cmd>NERDTreeToggle<CR>
 
 if has_lua_and_abyss && enable_abyss
     lua require("abyss").setup {}
