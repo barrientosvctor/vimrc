@@ -25,6 +25,7 @@ set smarttab
 set laststatus=2
 set completeopt=menuone,noinsert,noselect,preview
 set path=.,,**
+set wildignore+=*/tmp/*,*/temp/*,*/node_modules/*,*/.venv/*,__pycache__/*,.DS_Store,.env,coverage/*,build/*,.vscode/*,.git/*,dist/*,*.o,*.obj,*.pyc,*.log
 syntax on
 filetype indent plugin on
 let mapleader=","
