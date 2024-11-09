@@ -19,3 +19,9 @@
 [submodule "pack/lsp/start/friendly-snippets"]
 	path = pack/lsp/start/friendly-snippets
 	url = https://github.com/rafamadriz/friendly-snippets
+[submodule "pack/shell/start/fzf.vim"]
+	path = pack/shell/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/shell/start/fzf"]
+	path = pack/shell/start/fzf
+	url = https://github.com/junegunn/fzf

@@ -25,7 +25,6 @@ set softtabstop=4
 set smarttab
 set laststatus=2
 set completeopt=menuone,noinsert,noselect,preview
-set path=.,,**
 set wildignore+=*/tmp/*,*/temp/*,*/node_modules/*,*/.venv/*,__pycache__/*,.DS_Store,.env,coverage/*,build/*,.vscode/*,.git/*,dist/*,*.o,*.obj,*.pyc,*.log
 syntax on
 filetype indent plugin on
@@ -49,7 +48,6 @@ nnoremap t<Left> <C-w>>
 nnoremap t<Right> <C-w><
 nnoremap t<Up> <C-w>+
 nnoremap t<Down> <C-w>-
-nnoremap <Leader>ff :find 
 nnoremap <Leader>bp <Cmd>bprev<CR>
 nnoremap <Leader>bn <Cmd>bnext<CR>
 
