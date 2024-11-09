@@ -8,6 +8,7 @@ set noswapfile
 set nobackup
 set wildmenu
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
+if exists("+termguicolors") | set termguicolors | endif
 set hlsearch
 set showmatch
 set incsearch
