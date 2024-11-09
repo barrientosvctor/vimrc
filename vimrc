@@ -42,10 +42,6 @@ nnoremap <Leader>tp <Cmd>tabprevious<CR>
 nnoremap <Leader>tn <Cmd>tabnext<CR>
 tnoremap <Esc><Esc> <C-\><C-n>
 nnoremap <Leader>bd <Cmd>bd<CR>
-nnoremap t<Left> <C-w>>
-nnoremap t<Right> <C-w><
-nnoremap t<Up> <C-w>+
-nnoremap t<Down> <C-w>-
 nnoremap <Leader>bp <Cmd>bprev<CR>
 nnoremap <Leader>bn <Cmd>bnext<CR>
 
