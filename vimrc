@@ -31,7 +31,7 @@ filetype indent plugin on
 let mapleader=","
 let maplocalleader=","
 let g:netrw_banner=0
-colorscheme desert
+colorscheme habamax
 
 nnoremap <Esc> <Cmd>nohlsearch<CR>
 nnoremap <Leader>fe <Cmd>Ex<CR>
