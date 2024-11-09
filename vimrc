@@ -30,11 +30,9 @@ syntax on
 filetype indent plugin on
 let mapleader=","
 let maplocalleader=","
-let g:netrw_banner=0
 colorscheme habamax
 
 nnoremap <Esc> <Cmd>nohlsearch<CR>
-nnoremap <Leader>fe <Cmd>Ex<CR>
 nnoremap <Leader>tx <Cmd>split<CR><C-w>j
 nnoremap <Leader>ty <Cmd>vsp<CR><C-w>l
 nnoremap <Leader>th <Cmd>term<CR>

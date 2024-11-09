@@ -25,3 +25,6 @@
 [submodule "pack/shell/start/fzf"]
 	path = pack/shell/start/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "pack/shell/start/nerdtree"]
+	path = pack/shell/start/nerdtree
+	url = https://github.com/preservim/nerdtree
