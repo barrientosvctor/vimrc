@@ -52,3 +52,4 @@ nnoremap <Leader>bp <Cmd>bprev<CR>
 nnoremap <Leader>bn <Cmd>bnext<CR>
 
 packadd comment
+packadd editorconfig
