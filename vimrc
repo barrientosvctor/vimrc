@@ -45,5 +45,11 @@ nnoremap <Leader>bd <Cmd>bd<CR>
 nnoremap <Leader>bp <Cmd>bprev<CR>
 nnoremap <Leader>bn <Cmd>bnext<CR>
 
-packadd comment
-packadd editorconfig
+if !has("nvim")
+    if has("patch-9.0.1799")
+        packadd editorconfig
+    endif
+    if has("patch-9.1.0375")
+        packadd comment
+    endif
+endif
