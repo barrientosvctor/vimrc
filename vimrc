@@ -43,6 +43,7 @@ tnoremap <Esc><Esc> <C-\><C-n>
 nnoremap <Leader>bd <Cmd>bd<CR>
 nnoremap <Leader>bp <Cmd>bprev<CR>
 nnoremap <Leader>bn <Cmd>bnext<CR>
+nnoremap <Leader>tb <Cmd>call util#ToggleBackground()<CR>
 
 if !has("nvim")
     if has("patch-9.0.1799")
