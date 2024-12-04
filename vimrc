@@ -29,7 +29,6 @@ syntax on
 filetype indent plugin on
 let mapleader=","
 let maplocalleader=","
-colorscheme habamax
 
 nnoremap <Esc> <Cmd>nohlsearch<CR>
 nnoremap <Leader>tx <Cmd>split<CR><C-w>j
