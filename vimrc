@@ -2,6 +2,7 @@ set number
 set relativenumber
 set wrap
 set clipboard=unnamed
+set undofile
 if has("win32") | set undodir=~/vimfiles/undo | elseif has("unix") | set undodir=~/.vim/undo | endif
 set noswapfile
 set nobackup
