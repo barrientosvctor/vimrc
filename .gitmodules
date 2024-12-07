@@ -25,3 +25,6 @@
 [submodule "pack/shell/start/fzf"]
 	path = pack/shell/start/fzf
 	url = https://github.com/junegunn/fzf
+[submodule "pack/code/start/ale"]
+	path = pack/code/start/ale
+	url = https://github.com/dense-analysis/ale
