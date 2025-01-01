@@ -6,6 +6,8 @@ set undofile
 if has("win32") | set undodir=~/vimfiles/undo | elseif has("unix") | set undodir=~/.vim/undo | endif
 set noswapfile
 set nobackup
+set nowritebackup
+set signcolumn=yes
 set wildmenu
 if has("patch-8.2.4325") && exists("+wildoptions") | set wildoptions=pum | endif
 if exists("+termguicolors") | set termguicolors | endif
@@ -13,6 +15,7 @@ set hlsearch
 set showmatch
 set incsearch
 set ignorecase
+set smartcase
 set encoding=utf-8
 scriptencoding utf-8
 set autoindent
@@ -24,8 +27,6 @@ set shiftwidth=4
 set softtabstop=4
 set smarttab
 set laststatus=2
-set completeopt=menuone,noinsert,noselect,preview
-set wildignore+=*/tmp/*,*/temp/*,*/node_modules/*,*/.venv/*,*/__pycache__/*,.DS_Store,.env,*/coverage/*,*/build/*,*/.vscode/*,*/.git/*,*/dist/*,*.o,*.obj,*.pyc,*.log
 syntax on
 filetype indent plugin on
 let mapleader=","
