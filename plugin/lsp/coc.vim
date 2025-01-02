@@ -109,3 +109,8 @@ nnoremap <silent><nowait> <Leader>dl  :<C-u>CocList diagnostics<cr>
 nnoremap <silent><nowait> <Leader>k  :<C-u>CocNext<CR>
 " Do default action for previous item
 nnoremap <silent><nowait> <Leader>j  :<C-u>CocPrev<CR>
+
+" Add (Neo)Vim's native statusline support
+" NOTE: Please see `:h coc-status` for integrations with external plugins that
+" provide custom statusline: lightline.vim, vim-airline
+set statusline=%<%f\ %h%w%m%r%=%{coc#status()}%{get(b:,'coc_current_function','')}\ %y
