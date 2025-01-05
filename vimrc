@@ -33,8 +33,6 @@ let mapleader=","
 let maplocalleader=","
 
 nnoremap <Esc> <Cmd>nohlsearch<CR>
-nnoremap <Leader>tx <Cmd>split<CR><C-w>j
-nnoremap <Leader>ty <Cmd>vsp<CR><C-w>l
 nnoremap <Leader>th <Cmd>term<CR>
 nnoremap <Leader>tv <Cmd>vertical terminal<CR>
 nnoremap <Leader>te <Cmd>tabedit<CR>
@@ -42,8 +40,7 @@ nnoremap <Leader>tp <Cmd>tabprevious<CR>
 nnoremap <Leader>tn <Cmd>tabnext<CR>
 tnoremap <Esc><Esc> <C-\><C-n>
 nnoremap <Leader>bd <Cmd>bd<CR>
-nnoremap <Leader>bp <Cmd>bprev<CR>
-nnoremap <Leader>bn <Cmd>bnext<CR>
+nnoremap <Leader>lb <Cmd>ls<CR>:b<Space>
 nnoremap <Leader>fe <Cmd>Ex<CR>
 
 command! -nargs=0 ToggleBackground :call util#ToggleBackground()
