@@ -26,7 +26,6 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set smarttab
-set laststatus=2
 syntax on
 filetype indent plugin on
 let mapleader=","
