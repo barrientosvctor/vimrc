@@ -38,8 +38,6 @@ nnoremap <Leader>tv <Cmd>vertical terminal<CR>
 nnoremap <Leader>te <Cmd>tabedit<CR>
 nnoremap <Leader>tp <Cmd>tabprevious<CR>
 nnoremap <Leader>tn <Cmd>tabnext<CR>
-tnoremap <Esc><Esc> <C-\><C-n>
-nnoremap <Leader>bd <Cmd>bd<CR>
 nnoremap <Leader>lb <Cmd>ls<CR>:b<Space>
 nnoremap <Leader>fe <Cmd>Ex<CR>
 
