@@ -1,9 +1,0 @@
-[submodule "pack/shell/start/fzf.vim"]
-	path = pack/shell/start/fzf.vim
-	url = https://github.com/junegunn/fzf.vim
-[submodule "pack/shell/start/fzf"]
-	path = pack/shell/start/fzf
-	url = https://github.com/junegunn/fzf
-[submodule "pack/lsp/start/coc.nvim"]
-	path = pack/lsp/start/coc.nvim
-	url = https://github.com/neoclide/coc.nvim
