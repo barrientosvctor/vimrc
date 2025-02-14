@@ -20,6 +20,7 @@ set autoindent
 if exists("+smartindent") | set smartindent | endif
 set backspace=2
 set hidden
+set completeopt=menuone,preview,noinsert
 syntax enable
 filetype indent plugin on
 let mapleader=","
