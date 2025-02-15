@@ -1,3 +1,5 @@
 .netrwhist
 undo/*
 !undo/.gitkeep
+plugged/*
+autoload/plug.vim

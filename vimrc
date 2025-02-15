@@ -33,16 +33,33 @@ nnoremap <Leader>te :tabedit<CR>
 nnoremap <Leader>tp :tabprevious<CR>
 nnoremap <Leader>tn :tabnext<CR>
 nnoremap <Leader>lb :ls<CR>:b<Space>
-nnoremap <Leader>fe :Ex<CR>
 
 command! -nargs=0 ToggleBackground :call util#ToggleBackground()
 command! -nargs=0 InspectSynStack :call util#SynStack()
 
-if !has("nvim")
+call plug#begin()
+
+Plug 'neoclide/coc.nvim', { 'branch':  'release', 'commit': '408e250' }
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
+Plug 'vim-airline/vim-airline'
+
+if has("nvim")
+    Plug 'nvim-treesitter/nvim-treesitter', { 'commit': '00a513f' } " Neovim 0.10 required.
+else
+    Plug 'sheerun/vim-polyglot'
+
     if has("patch-9.0.1799")
         packadd editorconfig
+    else
+        Plug 'editorconfig/editorconfig-vim'
     endif
+
     if has("patch-9.1.0375")
         packadd comment
     endif
 endif
+
+call plug#end()
