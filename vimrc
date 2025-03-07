@@ -20,7 +20,7 @@ set autoindent
 if exists("+smartindent") | set smartindent | endif
 set backspace=2
 set hidden
-set completeopt=menuone,preview,noinsert
+set cursorline
 syntax enable
 filetype indent plugin on
 let mapleader=","
@@ -39,18 +39,16 @@ command! -nargs=0 InspectSynStack :call util#SynStack()
 
 call plug#begin()
 
-Plug 'neoclide/coc.nvim', { 'branch':  'release', 'commit': '408e250' }
-
-" On-demand loading
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'morhetz/gruvbox'
 
 if has("nvim")
     Plug 'nvim-treesitter/nvim-treesitter', { 'commit': '00a513f' } " Neovim 0.10 required.
 else
-    Plug 'sheerun/vim-polyglot'
-
     if has("patch-9.0.1799")
         packadd editorconfig
     else
@@ -63,3 +61,6 @@ else
 endif
 
 call plug#end()
+
+let g:gruvbox_contrast_dark = "hard"
+colorscheme gruvbox
