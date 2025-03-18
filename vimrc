@@ -40,7 +40,10 @@ command! -nargs=0 InspectSynStack :call util#SynStack()
 call plug#begin()
 
 Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete.vim' | Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'mattn/vim-lsp-settings'
+Plug 'hrsh7th/vim-vsnip' | Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'rafamadriz/friendly-snippets', { 'commit': 'efff286' }
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf' | Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
